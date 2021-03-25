@@ -107,8 +107,8 @@ const educationInfo = {
       schoolName: "CIC-IPN Centro de Investigacion en Computacion",
       logo: require("./assets/images/cic.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: `{process.env.REACT_APP_GITHUB_TOKEN}`,
+      desc: "{process.env.REACT_APP_GITHUB_TOKEN}",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
@@ -188,7 +188,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "samdsmx", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
