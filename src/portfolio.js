@@ -107,8 +107,8 @@ const educationInfo = {
       schoolName: "CIC-IPN Centro de Investigacion en Computacion",
       logo: require("./assets/images/cic.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: `{process.env.REACT_APP_GITHUB_TOKEN}`,
-      desc: "{process.env.REACT_APP_GITHUB_TOKEN}",
+      duration: {process.env.REACT_APP_GITHUB_TOKEN},
+      desc: process.env.REACT_APP_GITHUB_TOKEN,
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
