@@ -9,7 +9,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Sergio Marquez2",
+  username: "samds",
   title: "Hi all, I'm Sergio",
   subTitle: emoji(
     "I love learn and share my knowledge 👨‍🏫. I have had to develop software since 15 years ago for work and fun 💻. I contribute in open source & non-profit organizations ❤. Always expanding my skills. 🪂"
