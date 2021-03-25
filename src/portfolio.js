@@ -9,28 +9,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
+  username: "Sergio Marquez2",
   title: "Hi all, I'm Sergio",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "I love learn and share my knowledge 👨‍🏫. I have had to develop software since 15 years ago for work and fun 💻. I contribute in open source & non-profit organizations ❤. Always expanding my skills. 🪂"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  // resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
+  github: "https://github.com/samdsmx",
   // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
+  gmail: "samdsmx@gmail.com",
+  // gitlab: "https://gitlab.com/samdsmx",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  //medium: "https://medium.com/@davidrakosi",
+  stackoverflow: "https://stackoverflow.com/users/3564815/sergio-marquez",
+  //instagram: 'https://www.instagram.com/davidrakosi/',
+  //twitter: 'https://twitter.com/davidrakosi_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,15 +37,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Frontend Developer, Building responsive sites and native apps for my company and non-profits.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
+    emoji("⚡ One-on-one live mentorship, freelance projects"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -62,10 +57,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -78,10 +69,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -90,9 +77,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      skillName: "PowerShell",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -100,11 +101,11 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "CIC-IPN Centro de Investigacion en Computacion",
+      logo: require("./assets/images/cic.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
@@ -113,8 +114,8 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "UNITEC - Universidad Tecnologica de Mexico",
+      logo: require("./assets/images/unitec.jfif"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc:
@@ -131,7 +132,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -139,7 +140,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,7 +149,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -188,9 +189,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "samdsmx", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -310,7 +311,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -323,10 +324,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "",
-      subtitle: "",
-      slides_url: "",
-      event_url: ""
+      title: "Herramientas de colaboración para equipos de desarrollo de software",
+      subtitle: "IPN",
+      slides_url: "https://prezi.com/aecsmbfofqd0/herramientas-de-colaboracion-para-equipos-de-desarrollo-de-software/?present=1",
+      event_url: "https://prezi.com/aecsmbfofqd0/herramientas-de-colaboracion-para-equipos-de-desarrollo-de-software/?present=1"
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -349,14 +350,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  //number: "(323) 768 0674",
+  email_address: "samdsmx@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "samdsmx", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
