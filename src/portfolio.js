@@ -107,7 +107,7 @@ const educationInfo = {
       schoolName: "CIC-IPN Centro de Investigacion en Computacion",
       logo: require("./assets/images/cic.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: {process.env.REACT_APP_GITHUB_TOKEN},
+      duration: "January 2006 - December 2008",
       desc: process.env.REACT_APP_GITHUB_TOKEN,
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -117,7 +117,7 @@ const educationInfo = {
       schoolName: "UNITEC - Universidad Tecnologica de Mexico",
       logo: require("./assets/images/unitec.jfif"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "January 2001 - December 2005",
       desc:
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
